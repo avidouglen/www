@@ -31,7 +31,7 @@
 			<ul>
 				{% for menu in site.data.menus %}
 				<li>
-					<a href="{{ menu.url | relative_url }}" {% if menu.active = 1  %} class="activelink"{% endif %}>{{menu.title}}</a>
+					<a href="{{ menu.url | relative_url }}" {% if menu.active %} class="activelink"{% endif %}>{{menu.title}}</a>
 				</li>
 				{% endfor %}
 			</ul>
