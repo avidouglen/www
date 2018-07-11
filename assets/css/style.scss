@@ -19,7 +19,8 @@ html {
 body { 
 	color: $fontcolor;
 	background: white;
-	font: $fontsize / 1.625 Calibri, Candara, Verdana, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+	font: $fontsize Calibri, Candara, Verdana, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+	line-height: 1.625;
 	margin: 0;
 }
 
@@ -28,7 +29,7 @@ footer
 	display: block;
 	font-family: 'Ubuntu', sans-serif;
 	border-top: 1px solid #eee;
-	font-size: smaller;
+	font-size: 18px;
 	background-color: $evencolor;
 	text-align: center;
 }
